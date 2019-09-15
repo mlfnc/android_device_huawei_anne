@@ -19,7 +19,7 @@ set -e
 
 # Required!
 export DEVICE=berkeley
-export DEVICE_COMMON=kirin970-common
+export DEVICE_COMMON=kirin659-common
 export VENDOR=huawei
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
